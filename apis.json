@@ -1,0 +1,70 @@
+{
+    "name": "Blockspring",
+    "description": "Blockspring makes it easy to find data, run algorithms, automate reports, and enrich lists from Google Sheets, Excel, Tableau, Slack, and Bubble. Become the super analyst on your team, without needing to learn any new tools.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/6694-blockspring.jpg",
+    "tags": [
+        "api lifeycle",
+        "api service provider",
+        "have api",
+        "spreadsheets"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/blockspring\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Blockspring",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/6694-blockspring.jpg",
+            "humanURL": "https:\/\/api.blockspring.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/blockspring-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/blockspring-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "https:\/\/open.blockspring.com\/blog"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/blockspring"
+        },
+        {
+            "type": "Email",
+            "url": "admin@blockspring.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@blockspring.com"
+        },
+        {
+            "type": "Email",
+            "url": "copyright@blockspring.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/blockspring"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/blockspring"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/api.blockspring.com\/"
+        }
+    ]
+}
