@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://blockspring.com
+summary: >-
+  Blockspring reached full end-of-life. On December 29, 2022 the company
+  permanently shut down all services -- the website tooling, integrations,
+  plugins, APIs, and data enrichment. Active subscriptions were cancelled and
+  remaining credits refunded on a prorated basis. No successor API surface is
+  published.
+status: retired
+lifecycle_stage: sunset
+versioning: null
+deprecation:
+  policy_url: https://blockspring.com
+  announcement: https://blockspring.com
+  sunset_date: '2022-12-29'
+  sunset_header: false
+  notes: >-
+    The blockspring.com homepage serves the official shutdown notice dated
+    December 29, 2022 announcing that all services, integrations, plugins, APIs,
+    and enrichment tooling ceased operation on that date.
+sla: null
+status_page: null
+deprecated_operations: []

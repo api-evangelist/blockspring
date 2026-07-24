@@ -1,7 +1,28 @@
 aid: blockspring
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blockspring.png
 name: Blockspring
-description: Blockspring is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Blockspring was a data integration and enrichment platform that let developers
+  and spreadsheet users run cloud functions and connect to hundreds of third-party
+  APIs and data services from Google Sheets, Excel, and via its own API. Founded
+  around 2014 and originally Y Combinator backed, it was acquired by Coda (Krypton)
+  in 2017 and surfaced here as an a16z portfolio-associated company. All Blockspring
+  services -- the website tooling, integrations, plugins, APIs, and data enrichment
+  -- were permanently shut down on December 29, 2022, with active subscriptions
+  cancelled and prorated refunds issued. This profile is retained as a historical
+  record; there is no live developer surface, OpenAPI, SDK, or documentation to
+  enrich.
 url: https://raw.githubusercontent.com/api-evangelist/blockspring/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,37 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: shutdown
+x-shutdown-date: '2022-12-29'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data
+- Integration
+- Enrichment
+- Spreadsheets
+- Data Services
+- Retired
+common:
+- type: Website
+  url: https://blockspring.com
+- type: Lifecycle
+  url: lifecycle/blockspring-lifecycle.yml
+- type: Deprecation
+  url: https://blockspring.com
+  name: Blockspring Shutdown Notice
+- type: DomainSecurity
+  url: security/blockspring-domain-security.yml
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
