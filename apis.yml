@@ -41,7 +41,7 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: shutdown
+x-status: defunct
 x-shutdown-date: '2022-12-29'
 specificationVersion: '0.23'
 created: '2026-07-17'
@@ -54,6 +54,7 @@ tags:
 - Spreadsheets
 - Data Services
 - Retired
+- Defunct
 common:
 - type: Website
   url: https://blockspring.com
